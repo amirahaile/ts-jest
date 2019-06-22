@@ -2,7 +2,7 @@
 title: Babel Config option
 ---
 
-`ts-jest` by default does **NOT** use Babel. But you may want to use it, especially if your code rely on Babel plugins to make some transformations. `ts-jest` can call the BabelJest processor once TypeScript has transformed the source into JavaScript.
+`ts-jest` by default does **NOT** use Babel. But you may want to use it, especially if your code rely on Babel plugins to make some transformations. `ts-jest` can call the BabelJest processor once TypeScript has stripped the type annotations from the source code.
 
 The option is `babelConfig` and it works pretty much as the `tsConfig` option, except that it is disabled by default. Here is the possible values it can take:
 
